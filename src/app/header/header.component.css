@@ -1,0 +1,37 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px;
+    background: black;
+}
+
+.header-wrap{
+    list-style: none;
+}
+
+.header-wrap li{
+    display: inline-block;
+    padding: 0 15px;
+}
+ 
+.header-wrap li a{
+    color: #fff;
+}
+.header-wrap li a:hover{
+    color: #006c87;
+}
+.logo{
+    color: red;
+    position: absolute;
+    left: 0;
+    padding: 10px;
+    margin: 20px;
+    font-size: 30px;
+    font-weight: bold;
+}
